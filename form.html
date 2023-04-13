@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online form</title>
+</head>
+<style>
+    body{
+        background-image: url(sonam.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div{
+        /* border:  2px solid yellow; */
+        margin-left:33%;
+        padding-top:50px;
+        margin-right:30px;
+        margin-bottom: 30px;
+
+    }
+    h2{
+        /* border: 2px solid green; */
+        font-size: 40px;
+        font-weight:bolder;
+        text-align: center;
+        font-style: italic;
+        color: aliceblue;
+        text-shadow: 1px 2px   yellow;
+        
+
+    }
+    .neha{
+        font-size: 22px;
+        font-weight:bolder;
+
+         color:rgb(233, 222, 222);
+         font-style: italic;
+    }
+    input{
+        color: rgb(6, 233, 104);
+        background-color: transparent;
+        padding-top: 20px;
+        padding-right: 200px;
+        /* border:2px solid rgb(93, 170, 21); */
+        box-shadow: 2px 3px  rgb(223, 226, 21);
+        margin-left: 30px;
+        border-radius: 15px ;
+    }
+    button{
+        font-size: 15px;
+        /* padding: auto;
+        margin: auto;
+         */
+         padding-top: 10px;
+         padding-left: 15px;
+         padding-right: 15px;
+         border-radius: 30px;
+         margin-bottom: 80px;
+         box-shadow: 3px 3px yellow;
+    }
+    g{
+        margin-left: 30px;
+    }
+    
+</style>
+<body>
+    <h2 >Application form</h2>
+    <div>
+
+        
+        <form action="neha.php" method="post" class="neha">
+            <!-- <label for="#">likho naam </label> -->
+            Name <input type="text"   name="name" placeholder="enter your name"><br> <br>
+            password <input type="password" placeholder="password"><br> <br>
+            mobile     <input type="number" placeholder="number" min="10" max="1000"><br> <br>
+            email <input type="email" placeholder="email please"><br> <br>
+            select  <input type="date" name="#" id="neha"><br> <br>
+
+        gender <input type="radio"  value="f" name="n">female
+        <input type="radio"  value="m" name="n"> male 
+        <input type="radio"  value="o" name="n"> other <br><br>
+        upload file  <input type="file" placeholder="upload here "> <br> <br>
+         
+     Are you eligible <input type="checkbox"> <br> <br>
+           
+     any qwestion ? <br> <textarea name="nehhha"  cols="" rows="2">start from here </textarea> <br><br>
+          <div class="g">
+
+              <button>submit</button>
+              <button>reset all</button>
+            </div>
+           
+
+         
+        
+
+
+            
+        </form>
+    </div>
+</body>
+</html>
